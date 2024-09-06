@@ -1,57 +1,59 @@
-# Welcome to Anthropic's Prompt Engineering Interactive Tutorial - Bedrock Edition
 
-## Course introduction and goals
+# Anthropicのプロンプトエンジニアリング対話型チュートリアル - Bedrock版へようこそ
 
-This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude, using Bedrock.
+## コース紹介と目標
 
-**After completing this course, you will be able to**:
-- Master the basic structure of a good prompt 
-- Recognize common failure modes and learn the '80/20' techniques to address them
-- Understand Claude's strengths and weaknesses
-- Build strong prompts from scratch for common use cases
+このコースは、Bedrockを使用してClaudeで最適なプロンプトをエンジニアリングする方法について、包括的な段階的理解を提供することを目的としています。
 
-## Course structure and content
+**このコースを修了すると、以下のことができるようになります**:
+- 良いプロンプトの基本構造をマスターする
+- 一般的な失敗モードを認識し、それらに対処するための'80/20'テクニックを学ぶ
+- Claudeの長所と短所を理解する
+- 一般的なユースケースに対して、ゼロから強力なプロンプトを構築する
 
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**. 
+## コース構成と内容
 
-**Each lesson has an "Example Playground" area** at the bottom where you are free to experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing). While this answer key is structured for 1P API requests, the solutions are the same.
+このコースは、プロンプトの作成とトラブルシューティングを自分で練習する機会が多く設けられています。コースは**9つの章と付随する演習**、さらに高度な手法の付録で構成されています。**章順に進めていく**ことを想定しています。
 
-Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Haiku. Anthropic has [two other models](https://docs.anthropic.com/claude/docs/models-overview), Claude 3 Sonnet and Claude 3 Opus, which are more intelligent than Haiku, with Opus being the most intelligent.
+**各レッスンの下部に「実験用プレイグラウンド」エリア**があり、レッスンの例を自由に試してみて、プロンプトの変更がClaudeの応答にどのように影響するかを確認できます。また、[解答集](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing)も用意されています。この解答集は1P APIリクエスト用に構成されていますが、解決策は同じです。
+**<font color="red" size="2">※Lbose注 回答集は未日本語化です。</font>**
 
-When you are ready to begin, go to `01_Basic Prompt Structure` to proceed.
+注: このチュートリアルでは、最小、最速、最も安価なモデルであるClaude 3 Haikuを使用しています。AnthropicにはHaikuよりも知的な[他の2つのモデル](https://docs.anthropic.com/claude/docs/models-overview)、Claude 3 SonnetとClaude 3 Opusがあり、Opusが最も知的です。
 
-## Table of Contents
+準備ができたら、`01_基本的なプロンプト構造`に進んでください。
 
-Each chapter consists of a lesson and a set of exercises.
+## 目次
 
-### Beginner
-- **Chapter 1:** Basic Prompt Structure
+各章はレッスンと一連の演習で構成されています。
 
-- **Chapter 2:** Being Clear and Direct  
+### 初級
+- **第1章:** 基本的なプロンプト構造
 
-- **Chapter 3:** Assigning Roles
+- **第2章:** 明確で直接的な表現  
 
-### Intermediate 
-- **Chapter 4:** Separating Data from Instructions
+- **第3章:** 役割の割り当て
 
-- **Chapter 5:** Formatting Output & Speaking for Claude
+### 中級 
+- **第4章:** データと指示の分離
 
-- **Chapter 6:** Precognition (Thinking Step by Step)
+- **第5章:** 出力のフォーマットとClaudeの代弁
 
-- **Chapter 7:** Using Examples
+- **第6章:** 先見（ステップバイステップで考える）
 
-### Advanced
-- **Chapter 8:** Avoiding Hallucinations
+- **第7章:** 例の使用
 
-- **Chapter 9:** Building Complex Prompts (Industry Use Cases)
-  - Complex Prompts from Scratch - Chatbot
-  - Complex Prompts for Legal Services
-  - **Exercise:** Complex Prompts for Financial Services
-  - **Exercise:** Complex Prompts for Coding
-  - Congratulations & Next Steps
+### 上級
+- **第8章:** 幻覚の回避
 
-- **Appendix:** Beyond Standard Prompting
-  - Chaining Prompts
-  - Tool Use
-  - Empriical Performance Evaluations
-  - Search & Retrieval
+- **第9章:** 複雑なプロンプトの構築（業界ユースケース）
+  - ゼロからの複雑なプロンプト - チャットボット
+  - 法律サービスのための複雑なプロンプト
+  - **演習:** 金融サービスのための複雑なプロンプト
+  - **演習:** コーディングのための複雑なプロンプト
+  - おめでとうございます & 次のステップ
+
+- **付録:** 標準的なプロンプト以上
+  - プロンプトのチェーン
+  - ツールの使用
+  - 実証的パフォーマンス評価
+  - 検索と検索
