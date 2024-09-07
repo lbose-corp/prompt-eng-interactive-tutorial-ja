@@ -16,9 +16,10 @@
 このコースは、プロンプトの作成とトラブルシューティングを自分で練習する機会が多く設けられています。コースは**9つの章と付随する演習**、さらに高度な手法の付録で構成されています。**章順に進めていく**ことを想定しています。
 
 **各レッスンの下部に「実験用プレイグラウンド」エリア**があり、レッスンの例を自由に試してみて、プロンプトの変更がClaudeの応答にどのように影響するかを確認できます。また、[解答集](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing)も用意されています。この解答集は1P APIリクエスト用に構成されていますが、解決策は同じです。
-**<font color="red" size="2">※Lbose注 回答集は未日本語化です。</font>**
 
-注: このチュートリアルでは、最小、最速、最も安価なモデルであるClaude 3 Haikuを使用しています。AnthropicにはHaikuよりも知的な[他の2つのモデル](https://docs.anthropic.com/claude/docs/models-overview)、Claude 3 SonnetとClaude 3 Opusがあり、Opusが最も知的です。
+**※Lbose注 回答集は未日本語化です。**
+
+注:  このチュートリアルでは、Claude 3.5 Sonnnetを使用しています。フォーク元の英語版では Claude 3 Haikuを使用していますが、日本語の処理能力上、Haikuだと厳しい箇所があるため日本語版はSonnet利用としています。Anthropicには[他にモデル](https://docs.anthropic.com/claude/docs/models-overview)があるので参照してください。
 
 準備ができたら、`01_基本的なプロンプト構造`に進んでください。
 
